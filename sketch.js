@@ -6,9 +6,9 @@ var options = [];
 var beesCount = 20;
 
 function setup() {
-  createCanvas(400, 400);
-  w = width / cols;
-  h = height / rows;
+  createCanvas(401, 401);
+  w = floor(width / cols);
+  h = floor(height / rows);
   for (let i = 0; i < rows; i++) {
     cells[i] = [];
     for (let j = 0; j < cols; j++) {
