@@ -65,3 +65,15 @@ button.green {
 button.red {
     color: red;
 }
+
+#restart{
+    display: none;
+    margin-top: 20px;
+    margin-left: 150px;
+    transform: translateX(-50%);
+    color:blue;
+}
+
+#restart.active{
+    display: block;
+}
